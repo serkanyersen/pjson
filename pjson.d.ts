@@ -168,7 +168,7 @@ declare module "pjson" {
     export var bundleDependencies : string[];
 
     export var engines : {};
-    export var engineStrict : bool;
+    export var engineStrict : boolean;
     export var os : string[];
     export var cpu : string[];
 
@@ -177,12 +177,12 @@ declare module "pjson" {
      * that should be installed globally, then set this value to
      * true to provide a warning if it is installed locally.
      */
-    export var preferGlobal : bool;
+    export var preferGlobal : boolean;
 
     /**
      * If set to true, then npm will refuse to publish it.
      */
-    export var private : bool;
+    export var private : boolean;
 
     export var publishConfig : {};
 

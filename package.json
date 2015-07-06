@@ -1,6 +1,6 @@
 {
   "name": "pjson",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Reads package.json regardless of it's path, always finds the root one. Returns an object",
   "main": "pjson.js",
   "repository": {
