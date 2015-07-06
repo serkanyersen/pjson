@@ -1,11 +1,8 @@
 {
   "name": "pjson",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Reads package.json regardless of it's path, always finds the root one. Returns an object",
   "main": "package.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/serkanyersen/pjson.git"
@@ -18,6 +15,9 @@
     "typescript",
     "utility"
   ],
+  "typescript": {
+    "definition": "pjson.d.ts"
+  },
   "author": "Serkan Yersen <serkanyersen@gmail.com> (http://serkan.io/)",
   "license": "MIT",
   "bugs": {
