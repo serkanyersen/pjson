@@ -88,7 +88,7 @@ declare module "pjson" {
     /**
      * Names of binaries for this package
      */
-    export var bin : any{};
+    export var bin : {};
 
     /**
      * Specify either a single file or an array of filenames to put in place for the man program to find.
@@ -144,13 +144,13 @@ declare module "pjson" {
      * the lifecycle of your package. The key is the lifecycle event, and the value is
      * the command to run at that point.
      */
-    export var scripts : any{}
+    export var scripts : {}
 
     /**
      * A 'config' hash can be used to set configuration parameters used in
      * package scripts that persist across upgrades.
      */
-    export var config : any{};
+    export var config : {};
 
     /**
      * Dependencies are specified with a simple hash of package name to version range.
