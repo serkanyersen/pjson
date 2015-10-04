@@ -1,5 +1,5 @@
 var fs = require('fs');
-var root = __dirname.split('node_modules')[0];
+var root = __dirname.replace('node_modules/pjson/', '');
 var contents = fs.readFileSync(root + 'package.json');
 var pjson = {};
 
