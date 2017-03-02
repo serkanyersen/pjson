@@ -15,6 +15,7 @@
     "typescript",
     "utility"
   ],
+  "types": "pjson.d.ts",
   "typescript": {
     "definition": "pjson.d.ts"
   },
