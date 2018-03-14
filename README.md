@@ -1,6 +1,6 @@
 # PJSON
 
-PJSON is a simple npm package that let's you read the package.json file.
+PJSON is a simple npm package that lets you read the package.json file.
 
 ## Usage
 
@@ -22,7 +22,7 @@ console.log(pjson.version);
 
 In Node.js you can already import json files by simple giving their names in the `require` statements but this approach doesn't always work well.  
 
-First of all it's path dependend. So if your project has a nested structure you might endup with a code that looks like this
+First of all it's path dependent. So if your project has a nested structure you might end up with code that looks like this
 
 ```javascript
 var pjson = require('../../../package.json');
@@ -34,8 +34,8 @@ In typescript you cannot create module definitions for relatively imported thing
 
 #### Old versions of Node
 
-Importing JSON files using require is only enabled on late versions of node. For old versions, PJSON is might be useful
+Importing JSON files using require is only enabled in later versions of node. For old versions, PJSON might be useful
 
 #### Because I need it
 
-It's simple, I needed it for my own project and I though it might be useful for other as well :)
+It's simple, I needed it for my own project and I though it might be useful for others as well :)
