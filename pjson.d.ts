@@ -88,7 +88,7 @@ declare module "pjson" {
     /**
      * Names of binaries for this package
      */
-    export var bin : {};
+    export var bin : { [commandName: string]: string };
 
     /**
      * Specify either a single file or an array of filenames to put in place for the man program to find.
@@ -144,30 +144,30 @@ declare module "pjson" {
      * the lifecycle of your package. The key is the lifecycle event, and the value is
      * the command to run at that point.
      */
-    export var scripts : {}
+    export var scripts : { [name: string]: string };
 
     /**
      * A 'config' hash can be used to set configuration parameters used in
      * package scripts that persist across upgrades.
      */
-    export var config : {};
+    export var config : { [name: string]: any };
 
     /**
      * Dependencies are specified with a simple hash of package name to version range.
      * The version range is a string which has one or more space-separated descriptors.
      * Dependencies can also be identified with a tarball or git URL.
      */
-    export var dependencies : {};
-    export var devDependencies : {};
-    export var optionalDependencies : {};
-    export var peerDependencies : {};
+    export var dependencies : { [name: string]: any };
+    export var devDependencies : { [name: string]: any };
+    export var optionalDependencies : { [name: string]: any };
+    export var peerDependencies : { [name: string]: any };
 
     /**
      * Array of package names that will be bundled when publishing the package.
      */
     export var bundleDependencies : string[];
 
-    export var engines : {};
+    export var engines : { [name: string]: string };
     export var engineStrict : boolean;
     export var os : string[];
     export var cpu : string[];
@@ -184,7 +184,7 @@ declare module "pjson" {
      */
     export var private : boolean;
 
-    export var publishConfig : {};
+    export var publishConfig : { [name: string]: any };
 
     export var dist : {
       shasum : string;
