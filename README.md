@@ -1,4 +1,6 @@
 # PJSON
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fserkanyersen%2Fpjson.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fserkanyersen%2Fpjson?ref=badge_shield)
+
 
 PJSON is a simple npm package that lets you read the package.json file.
 
@@ -39,3 +41,7 @@ Importing JSON files using require is only enabled in later versions of node. Fo
 #### Because I need it
 
 It's simple, I needed it for my own project and I though it might be useful for others as well :)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fserkanyersen%2Fpjson.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fserkanyersen%2Fpjson?ref=badge_large)
